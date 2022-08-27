@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5598F1B90B2E751A3BF287E1 /* Pods_EyeFiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8AAC7DF656E2D6897C45C6 /* Pods_EyeFiTests.framework */; };
 		84A5532828B66F44008718D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5532728B66F44008718D6 /* AppDelegate.swift */; };
 		84A5532A28B66F44008718D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5532928B66F44008718D6 /* SceneDelegate.swift */; };
 		84A5532C28B66F44008718D6 /* EyefiRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5532B28B66F44008718D6 /* EyefiRootViewController.swift */; };
@@ -18,6 +19,8 @@
 		84A5534B28B66F48008718D6 /* EyeFiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5534A28B66F48008718D6 /* EyeFiUITestsLaunchTests.swift */; };
 		84A5535828B6711D008718D6 /* EyefiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5535728B6711D008718D6 /* EyefiApp.swift */; };
 		84A5535B28B70B08008718D6 /* EyeNetworkingUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5535A28B70B08008718D6 /* EyeNetworkingUtil.swift */; };
+		922E364128FAE853DB067B1F /* Pods_EyeFi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80D0825B65EC1D2CC68F183 /* Pods_EyeFi.framework */; };
+		C9F636FA0D223F0212BE21E0 /* Pods_EyeFi_EyeFiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EAB506B30E9C8EFEE488D9 /* Pods_EyeFi_EyeFiUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FDAB2A3DE527F1D2D93E81F /* Pods-EyeFi-EyeFiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeFi-EyeFiUITests.debug.xcconfig"; path = "Target Support Files/Pods-EyeFi-EyeFiUITests/Pods-EyeFi-EyeFiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1EA91D5197E67540CECF5AB7 /* Pods-EyeFiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeFiTests.debug.xcconfig"; path = "Target Support Files/Pods-EyeFiTests/Pods-EyeFiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		257B8011BBA74A46A68D21F3 /* Pods-EyeFi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeFi.release.xcconfig"; path = "Target Support Files/Pods-EyeFi/Pods-EyeFi.release.xcconfig"; sourceTree = "<group>"; };
+		3B287C6928F929F3E64BD4E4 /* Pods-EyeFi-EyeFiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeFi-EyeFiUITests.release.xcconfig"; path = "Target Support Files/Pods-EyeFi-EyeFiUITests/Pods-EyeFi-EyeFiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DB24690E83322AE5E6335D5 /* Pods-EyeFi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeFi.debug.xcconfig"; path = "Target Support Files/Pods-EyeFi/Pods-EyeFi.debug.xcconfig"; sourceTree = "<group>"; };
+		60EAB506B30E9C8EFEE488D9 /* Pods_EyeFi_EyeFiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeFi_EyeFiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		847E10774792CB1407374A6F /* Pods-EyeFiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EyeFiTests.release.xcconfig"; path = "Target Support Files/Pods-EyeFiTests/Pods-EyeFiTests.release.xcconfig"; sourceTree = "<group>"; };
 		84A5532428B66F44008718D6 /* EyeFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A5532728B66F44008718D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A5532928B66F44008718D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +64,8 @@
 		84A5535728B6711D008718D6 /* EyefiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyefiApp.swift; sourceTree = "<group>"; };
 		84A5535928B70A78008718D6 /* Todo.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Todo.md; sourceTree = "<group>"; };
 		84A5535A28B70B08008718D6 /* EyeNetworkingUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeNetworkingUtil.swift; sourceTree = "<group>"; };
+		9D8AAC7DF656E2D6897C45C6 /* Pods_EyeFiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeFiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80D0825B65EC1D2CC68F183 /* Pods_EyeFi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EyeFi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922E364128FAE853DB067B1F /* Pods_EyeFi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5598F1B90B2E751A3BF287E1 /* Pods_EyeFiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F636FA0D223F0212BE21E0 /* Pods_EyeFi_EyeFiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61141C460A8BF3DD5CC4F34D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DB24690E83322AE5E6335D5 /* Pods-EyeFi.debug.xcconfig */,
+				257B8011BBA74A46A68D21F3 /* Pods-EyeFi.release.xcconfig */,
+				0FDAB2A3DE527F1D2D93E81F /* Pods-EyeFi-EyeFiUITests.debug.xcconfig */,
+				3B287C6928F929F3E64BD4E4 /* Pods-EyeFi-EyeFiUITests.release.xcconfig */,
+				1EA91D5197E67540CECF5AB7 /* Pods-EyeFiTests.debug.xcconfig */,
+				847E10774792CB1407374A6F /* Pods-EyeFiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		725B305ACBD6A696FE65372B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A80D0825B65EC1D2CC68F183 /* Pods_EyeFi.framework */,
+				60EAB506B30E9C8EFEE488D9 /* Pods_EyeFi_EyeFiUITests.framework */,
+				9D8AAC7DF656E2D6897C45C6 /* Pods_EyeFiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84A5531B28B66F44008718D6 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +126,8 @@
 				84A5533D28B66F47008718D6 /* EyeFiTests */,
 				84A5534728B66F48008718D6 /* EyeFiUITests */,
 				84A5532528B66F44008718D6 /* Products */,
+				61141C460A8BF3DD5CC4F34D /* Pods */,
+				725B305ACBD6A696FE65372B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +144,7 @@
 		84A5532628B66F44008718D6 /* EyeFi */ = {
 			isa = PBXGroup;
 			children = (
+				84A5535A28B70B08008718D6 /* EyeNetworkingUtil.swift */,
 				84A5535728B6711D008718D6 /* EyefiApp.swift */,
 				84A5532728B66F44008718D6 /* AppDelegate.swift */,
 				84A5532928B66F44008718D6 /* SceneDelegate.swift */,
@@ -113,7 +154,6 @@
 				84A5533228B66F47008718D6 /* LaunchScreen.storyboard */,
 				84A5533528B66F47008718D6 /* Info.plist */,
 				84A5535928B70A78008718D6 /* Todo.md */,
-				84A5535A28B70B08008718D6 /* EyeNetworkingUtil.swift */,
 			);
 			path = EyeFi;
 			sourceTree = "<group>";
@@ -142,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84A5534E28B66F48008718D6 /* Build configuration list for PBXNativeTarget "EyeFi" */;
 			buildPhases = (
+				2FB2AD651EF62F8D04CF63AA /* [CP] Check Pods Manifest.lock */,
 				84A5532028B66F44008718D6 /* Sources */,
 				84A5532128B66F44008718D6 /* Frameworks */,
 				84A5532228B66F44008718D6 /* Resources */,
+				F05200E32424D5BFA2EEF384 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84A5535128B66F48008718D6 /* Build configuration list for PBXNativeTarget "EyeFiTests" */;
 			buildPhases = (
+				ABE2BCA590010930E2B4DFEC /* [CP] Check Pods Manifest.lock */,
 				84A5533628B66F47008718D6 /* Sources */,
 				84A5533728B66F47008718D6 /* Frameworks */,
 				84A5533828B66F47008718D6 /* Resources */,
@@ -177,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84A5535428B66F48008718D6 /* Build configuration list for PBXNativeTarget "EyeFiUITests" */;
 			buildPhases = (
+				06C3EE7DA307C3C8253CB693 /* [CP] Check Pods Manifest.lock */,
 				84A5534028B66F48008718D6 /* Sources */,
 				84A5534128B66F48008718D6 /* Frameworks */,
 				84A5534228B66F48008718D6 /* Resources */,
+				33F53E81F0A9997C99177F2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06C3EE7DA307C3C8253CB693 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeFi-EyeFiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FB2AD651EF62F8D04CF63AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeFi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33F53E81F0A9997C99177F2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeFi-EyeFiUITests/Pods-EyeFi-EyeFiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeFi-EyeFiUITests/Pods-EyeFi-EyeFiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeFi-EyeFiUITests/Pods-EyeFi-EyeFiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABE2BCA590010930E2B4DFEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EyeFiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F05200E32424D5BFA2EEF384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeFi/Pods-EyeFi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EyeFi/Pods-EyeFi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EyeFi/Pods-EyeFi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84A5532028B66F44008718D6 /* Sources */ = {
@@ -442,6 +590,7 @@
 		};
 		84A5534F28B66F48008718D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DB24690E83322AE5E6335D5 /* Pods-EyeFi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +609,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eye.new.EyeFi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -470,6 +620,7 @@
 		};
 		84A5535028B66F48008718D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 257B8011BBA74A46A68D21F3 /* Pods-EyeFi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -498,6 +649,7 @@
 		};
 		84A5535228B66F48008718D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA91D5197E67540CECF5AB7 /* Pods-EyeFiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +670,7 @@
 		};
 		84A5535328B66F48008718D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847E10774792CB1407374A6F /* Pods-EyeFiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -538,6 +691,7 @@
 		};
 		84A5535528B66F48008718D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDAB2A3DE527F1D2D93E81F /* Pods-EyeFi-EyeFiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +710,7 @@
 		};
 		84A5535628B66F48008718D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B287C6928F929F3E64BD4E4 /* Pods-EyeFi-EyeFiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
